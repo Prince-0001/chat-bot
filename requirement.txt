@@ -12,3 +12,45 @@ pip install langchain-postgres
 pip install psycopg[c]
 
 pip install openai
+pip install langchain-google-genai google-generativeai
+pip install google-generativeai langchain_google_genai python-dotenv
+pip install psycopg2-binary sqlalchemy langchain langchain-community
+
+pip install langchain_experimental
+
+langchain-core
+langchain_community
+langgraph
+langchain
+langchain-huggingface
+transformers
+torch
+duckduckgo-search
+langchain_groq
+ipython
+langgraph-supervisor
+pypdf
+psycopg2-binary
+pgvector
+langchain-postgres
+psycopg[c]
+openai
+langchain-google-genai
+google-generativeai
+langchain_google_genai
+python-dotenv
+sqlalchemy
+langchain_experimental
+
+
+GROQ_API_KEY="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"
+
+DATABASE_URL="postgresql://admin:password@localhost:5432/mydatabase"
+
+GOOGLE_API_KEY="AIzaSyD52I7uKaX-csh3C_J9eKW-bjvpx9mDCuE"
+
+DB_NAME="mydatabase"
+DB_USER="admin"
+DB_PASSWORD="password"
+DB_HOST="localhost"
+DB_PORT="5432"
